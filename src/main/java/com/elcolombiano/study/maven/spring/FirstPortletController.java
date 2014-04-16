@@ -34,7 +34,8 @@ import javax.portlet.RenderResponse;
 import javax.portlet.ResourceRequest;
 import javax.portlet.ResourceResponse;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -66,7 +67,7 @@ import org.springframework.web.portlet.bind.annotation.ResourceMapping;
 @RequestMapping("VIEW")
 @Controller("firstPortletController")
 public class FirstPortletController {
-	private static Logger	_log	= Logger.getLogger(FirstPortletController.class);
+	private static Logger	_log	= LoggerFactory.getLogger(FirstPortletController.class);
 
 	@ExceptionHandler({ Exception.class })
 	public String handleException() {
