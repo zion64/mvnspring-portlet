@@ -6,8 +6,8 @@
   <appender name="RollingFileAppender" class="org.apache.log4j.rolling.RollingFileAppender">
   
     <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
-      <param name="FileNamePattern" value="@liferay.home@/logs/slf4j-logging-sample-portlet.%d{yyyy-MM-dd}.log.zip" />
-      <param name="ActiveFileName" value="@liferay.home@/logs/slf4j-logging-sample-portlet.log" />
+      <param name="FileNamePattern" value="/Users/anjongdeog/AppServer/liferay-portal/logs/slf4j-logging-sample-portlet.%d{yyyy-MM-dd}.log.zip" />
+      <param name="ActiveFileName" value="/Users/anjongdeog/AppServer/liferay-portal/logs/slf4j-logging-sample-portlet.log" />
     </rollingPolicy>
  
     <layout class="org.apache.log4j.EnhancedPatternLayout">

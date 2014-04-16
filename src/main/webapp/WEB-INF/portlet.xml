@@ -12,10 +12,6 @@
 		<expiration-cache>0</expiration-cache>
 		<supports>
 			<mime-type>text/html</mime-type>
-            <portlet-mode>view</portlet-mode>
-            <window-state>maximized</window-state>
-            <window-state>minimized</window-state>
-            <window-state>normal</window-state>
 		</supports>
 		<portlet-info>
 			<title>First Portlet</title>
@@ -49,7 +45,7 @@
 		</supports>
 		<portlet-info>
 			<title>Second Portlet</title>
-			<short-title>First Portlet</short-title>
+			<short-title>Second Portlet</short-title>
 			<keywords>Spring MVC Portlet, Maven</keywords>
 		</portlet-info>
 		<security-role-ref>

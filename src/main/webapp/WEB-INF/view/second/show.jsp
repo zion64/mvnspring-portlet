@@ -5,8 +5,6 @@
 <portlet:defineObjects />
 
 <h1>
-	Second Portlet Using, Spring Portlet MVC way <img scale="0"
-		src="http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif?m=1129645325g"
-		alt=":-)" class="wp-smiley">
+	Second Portlet Using, Spring Portlet MVC way <img scale="0"	src="http://s0.wp.com/wp-includes/images/smilies/icon_smile.gif?m=1129645325g"	alt=":-)" class="wp-smiley">
 </h1>
 <img border="0" src="http://placehold.it/728x90/67b11d/fff.png">
